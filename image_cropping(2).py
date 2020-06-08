@@ -36,7 +36,7 @@ detector = dlib.get_frontal_face_detector()
 #loads the facial landmark predictor using the path
 predictor = dlib.shape_predictor(predictor_path)
 
-img = cv2.imread('/content/IMG-20191007-WA0007[82] (3).jpg')
+img = cv2.imread('/content/S014_003_00000028.png')
 gray_image = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)  # convert color image to grayscale image
 rects = detector(gray_image) # detect faces in the grayscale image
 
@@ -71,12 +71,17 @@ for (i, rect) in enumerate(rects):
 	# convert dlib's rectangle to a OpenCV-style bounding box
 	# [i.e., (x, y, w, h)], then draw the face bounding box
 	(x, y, w, h) = rect_to_bb(rect)
+	d = forehead_dist(shape)
+	d_t_y = int(np.sum(shape[42:47,1])/6 - 0.6*d)
+	d_l_x, d_l_y = shape[0]
+	d_b_x,d_b_y = shape[8]
+	d_r_x,d_l_y = shape[16]
+	image = img[d_t_y:d_b_y,d_l_x:d_r_x]
 
-d = forehead_dist(shape)
-d_t_y = int(np.sum(shape[42:47,1])/6 - 0.6*d)
-d_l_x, d_l_y = shape[0]
-d_b_x,d_b_y = shape[8]
-d_r_x,d_l_y = shape[16]
-image = img[d_t_y:d_b_y,d_l_x:d_r_x]  # croppped image
-plt.imshow(image)
+if(len(rects) > 0):
+   print('Cropped image:')
+   plt.imshow(image)
+else:
+	print('Warning: Landmark is not detected.No cropping is performed')
+	plt.imshow(img)
 
