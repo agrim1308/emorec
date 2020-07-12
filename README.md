@@ -46,31 +46,30 @@ The results of various evaluation methods we used are illustrated in this table 
 
 ### Cropping without background
 
-|No. of neurons     |Training accuracy   |Validation accuracy   |
+|No. of neurons     |Accuracy graph   |Confusion matrix   |
 |---|---|---|
-|0   |   |   |   
-|256  |   |   |     
-|512   |   |   |      
-|1024   |   |   | 
+|0   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%200%20neurons%20without%20background.jpg)  |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%200%20neuron%20without%20background.jpg)   |   
+|256  |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%20256%20neurons%20without%20background.jpg)   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%20256%20neuron%20without%20background.jpg)  |     
+|512   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%20512%20neurons%20without%20background.jpg)   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%20512%20neuron%20without%20background.jpg)  |      
+|1024   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%201024%20neurons%20without%20background.jpg)  |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%201024%20neuron%20without%20background.jpg)  | 
 
 ### Cropping without forehead
 
-|No. of neurons     |Training accuracy   |Validation accuracy   |
+|No. of neurons     |Accuracy graph   |Confusion matrix   |
 |---|---|---|
-|0   |   |   |   
-|256  |   |   |     
-|512   |   |   |      
-|1024   |   |   | 
+|0   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%200%20neurons%20without%20forehead.jpg)  |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%200%20neuron%20without%20forehead.jpg)   |   
+|256  |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%20256%20neurons%20without%20forehead.jpg)   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%20256%20neuron%20without%20forehead.jpg)   |     
+|512   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%20512%20neurons%20without%20forehead.jpg)   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%20512%20neuron%20without%20forehead.jpg)   |   
+|1024   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%201024%20neurons%20without%20forehead.jpg)   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%201024%20neuron%20without%20forehead.jpg)   | 
 
 ### Cropping with background
 
-|No. of neurons     |Training accuracy   |Validation accuracy   |
+|No. of neurons     |Accuracy graph   |Confusion matrix   |
 |---|---|---|
-|0   |   |   |   
-|256  |   |   |     
-|512   |   |   |      
-<<<<<<< HEAD
-|1024   |   |   | 
-=======
-|1024   |   |   | 
->>>>>>> f235c395182547bef436f45d6206cfb541ad0620
+|0   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%200%20neurons%20with%20background.jpg)  |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%200%20neuron%20with%20background.jpg)   |   
+|256  |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%20256%20neurons%20with%20background.jpg)   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%20256%20neuron%20with%20background.jpg)   |     
+|512   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%20512%20neurons%20with%20background.jpg)   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%20512%20neuron%20with%20background.jpg)   |      
+|1024   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%201024%20neurons%20with%20background.jpg)   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%201024%20neuron%20with%20background.jpg)   | 
+
+
+
