@@ -69,4 +69,8 @@ The results of various evaluation methods we used are illustrated in this table 
 |0   |   |   |   
 |256  |   |   |     
 |512   |   |   |      
+<<<<<<< HEAD
 |1024   |   |   | 
+=======
+|1024   |   |   | 
+>>>>>>> f235c395182547bef436f45d6206cfb541ad0620
