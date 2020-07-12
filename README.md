@@ -92,13 +92,11 @@ We have done a ten-fold cross validation on our dataset. Following the research 
 
 ## Reference Links
 
-* [https://link.springer.com/article/10.1186/s13640-018-0324-4]
-* [https://machinelearningmastery.com/how-to-configure-image-data-augmentation-when-training-deep-learning-neural-networks/
-]
-* [https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
-]
-* [https://coursera.org/share/111ff958aae8ede07800d98664152420]
-* [https://www.pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/]
-* [https://machinelearningmastery.com/k-fold-cross-validation/]
+* https://link.springer.com/article/10.1186/s13640-018-0324-4
+* https://machinelearningmastery.com/how-to-configure-image-data-augmentation-when-training-deep-learning-neural-networks/
+* https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
+* https://coursera.org/share/111ff958aae8ede07800d98664152420
+* https://www.pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/
+* https://machinelearningmastery.com/k-fold-cross-validation/
 
 
