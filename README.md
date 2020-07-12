@@ -71,5 +71,32 @@ The results of various evaluation methods we used are illustrated in this table 
 |512   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%20512%20neurons%20with%20background.jpg)   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%20512%20neuron%20with%20background.jpg)   |      
 |1024   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/FER%20acc%20graph%20with%201024%20neurons%20with%20background.jpg)   |[Link](https://github.com/Av-hash/EmoRec/blob/master/images/Confusion%20matrix%20with%201024%20neuron%20with%20background.jpg)   | 
 
+<<<<<<< HEAD
+### Cross Validation
+We have done a ten-fold cross validation on our dataset. Following the research paper , it was done with same cropping method (without background) but with different neuron numbers.
+
+|No. of neurons   |Accuracy  |      
+|---|---|---|
+|0   |97.96   |         
+|256   |98.27   |         
+|512   |   |   
+|1024   |   |   
+
+#### Average accuracy
+
+|On the paper   | On our Model   |
+|---|---|
+|97.38   |   |
+
+## Reference Links
+
+* [https://link.springer.com/article/10.1186/s13640-018-0324-4]
+* [https://machinelearningmastery.com/how-to-configure-image-data-augmentation-when-training-deep-learning-neural-networks/
+]
+* [https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
+]
+* [https://coursera.org/share/111ff958aae8ede07800d98664152420]
+* [https://www.pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/]
+* [https://machinelearningmastery.com/k-fold-cross-validation/]
 
 
