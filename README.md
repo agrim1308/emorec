@@ -78,7 +78,7 @@ The results of various evaluation methods we used are illustrated in this table 
 We have done a ten-fold cross validation on our dataset. Following the research paper , it was done with same cropping method (without background) but with different neuron numbers.
 
 |No. of neurons   |Accuracy  |      
-|---|---|---|
+|---|---|
 |0   |97.96   |         
 |256   |98.27   |         
 |512   |96.62   |   
