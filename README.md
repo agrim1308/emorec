@@ -93,8 +93,6 @@ We have done a ten-fold cross validation on our dataset. Following the research 
 |---|---|
 |97.38   |97.49   |
 
-## Random testing
-We performed a testing of random images on our dataset. A short Demo of which is [this](https://drive.google.com/file/d/1ilF10OIT0p3OMDp5rC1Ed3U07fFnyLwT/view?usp=drivesdk).
 ## Reference Links
 
 * https://link.springer.com/article/10.1186/s13640-018-0324-4
