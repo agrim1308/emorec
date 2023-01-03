@@ -44,9 +44,6 @@ The link to the whole assembled code is [here](https://github.com/Av-hash/EmoRec
 ## How to run
 For running the model , just run the python script [facial_expression_recognition.py](https://github.com/Av-hash/EmoRec/blob/master/facial_expression_recognition.py)
 
-## Documentation
-The documentation of this project can be found [here](https://drive.google.com/file/d/1ixtQco-1SQW4hH6pwLHVACqwrIZqrYbP/view?usp=drivesdk).
-
 ## Results
 The results of various evaluation methods we used are illustrated in this table :
 
